@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script>
+        window.onload = function () {
+            document.getElementById("btn").onclick = function () {
+                location.href = "/myservlet03"
+            }
+            $("#btn2").click(function () {
+                var user = $("#user").val();
+                var age = $("#age").val();
+                $.ajax({
+                    type:"post",
+                    url:"/myservlet04",
+                    data:{"username":user,"age":age},
+                    success:function (data) {
+                        alert(data.username+":"+data.age);
+                    },
+                    dataType:"json",
+                    contentType:"application/json"
+                })
+            })
+            $("#btn3").click(function () {
+
+                $.ajax({
+                    type : "post",
+                    url : "/AjaxServlet",
+                    data : {"username":"admin","age":12 },
+                    success : function(data) {
+                        alert(data.username + ":"+data.age);
+                    },
+                    dataType : "json",
+                    contentType : "application/json"
+                })
+            })
+        }
+    </script>
+</head>
+<body>
+<a href="/myservlet01">myservlet01</a>
+<form action="/myservlet02" method="post">
+    姓名：<input type="text" name="user" id="user">
+    年龄：<input type="text" name="age" id="age">
+    <input type="submit">
+</form>
+<button id="btn">myservlet03</button>
+<button id="btn2">Ajaxservlet</button>
+
+<form action="/" method="post">
+    姓名：<input type="text" name="user1" id="user1">
+    年龄：<input type="text" name="age1" id="age1">
+    <input type="submit">
+</form>
+<button id="btn3">asdas</button>
+</body>
+</html>

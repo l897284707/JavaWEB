@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-book/Java-book.iml" filepath="$PROJECT_DIR$/Java-book/Java-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPro-book/JavaPro-book.iml" filepath="$PROJECT_DIR$/JavaPro-book/JavaPro-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWEB.iml" filepath="$PROJECT_DIR$/JavaWEB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo01/demo01.iml" filepath="$PROJECT_DIR$/demo01/demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.0-druid/pro04-fruit1.0-druid.iml" filepath="$PROJECT_DIR$/pro04-fruit1.0-druid/pro04-fruit1.0-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.1-druid/pro04-fruit1.1-druid.iml" filepath="$PROJECT_DIR$/pro04-fruit1.1-druid/pro04-fruit1.1-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.2-druid/pro04-fruit1.2-druid.iml" filepath="$PROJECT_DIR$/pro04-fruit1.2-druid/pro04-fruit1.2-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.3-druid/pro04-fruit1.3-druid.iml" filepath="$PROJECT_DIR$/pro04-fruit1.3-druid/pro04-fruit1.3-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04-fruit1.4-druid/pro04-fruit1.4-druid.iml" filepath="$PROJECT_DIR$/pro04-fruit1.4-druid/pro04-fruit1.4-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro05-fruit1.3-jdbc/pro05-fruit1.3-jdbc.iml" filepath="$PROJECT_DIR$/pro05-fruit1.3-jdbc/pro05-fruit1.3-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro08-javaweb-servlet02/pro08-javaweb-servlet02.iml" filepath="$PROJECT_DIR$/pro08-javaweb-servlet02/pro08-javaweb-servlet02.iml" />
+    </modules>
+  </component>
+</project>
